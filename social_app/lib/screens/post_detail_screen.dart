@@ -30,7 +30,7 @@ class PostDetailScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(9),
                     child: Image.network(
                       post.imageUrl!,
-                      fit: BoxFit.fill,
+                      fit: BoxFit.cover,
                     ),
                   ),
                 ),
